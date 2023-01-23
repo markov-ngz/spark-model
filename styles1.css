@@ -1,0 +1,29 @@
+#entete {
+   background-image: url("images1/carte_relief.jpg");
+   background: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+padding: 70px;
+}
+img:hover {
+}
+
+body {
+    background: linear-gradient(360deg,blue,rgb(128, 107, 107));
+}
+h1 {
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu_deroulant{
+   
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    
+}
+footer {
+    background-image: url("images1/abysses/poisson_sac_plastique.jpeg");
+    background: cover;
+background-repeat: no-repeat;
+padding: 100px;
+}

@@ -27,3 +27,65 @@ footer {
 background-repeat: no-repeat;
 padding: 100px;
 }
+td {
+    border: black solid 1px;
+    padding: 30px;
+    background-color: grey;
+    
+}
+table {
+    border-collapse: collapse;
+    border-radius:10px;
+    border: black solid 2px;
+    margin:auto;
+}
+th {
+font: bold;
+background-color: white;
+border: black solid 1px;
+padding: 50px;
+}
+caption {
+    caption-side:top;
+    font-size: 1.5em;
+}
+.imgtable {
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+}
+.imgtable:hover {
+    opacity: 70%;
+}
+textarea{
+    width: 30em;
+    height: 5em;
+    overflow:scroll;
+}
+fieldset{
+    background: linear-gradient(grey,white);
+    border-radius: 5%;
+    border: black solid;
+}
+legend {
+   position: unset;
+   z-index:1;
+background-color: whitesmoke;
+border-radius: 10%;
+border: black solid 2px;
+top: 20px;
+padding: 3px;
+}
+#boutondroite {
+position: relative;
+left:50em;
+}
+@media screen and (max-width: 800px) {
+    #entete {
+        background-image: url("images1/carte_relief.jpg");
+        background: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     padding: 30px;
+     }
+}

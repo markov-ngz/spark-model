@@ -11,13 +11,15 @@
    </div>
 <main>
    
-    <form method="get" action="">
+    <form method="get" action="submit_contact.php">
         <fieldset>
             <legend>Formulaire de contact</legend>
         <p> Pourquoi souhaitez-vous nous contacter ?</p>
-        <label for="Nom">Nom:*</label><input type="text" name="Nom" id="Nom" size="30" 
+        <label for="Nom">Nom:*</label>
+        <input type="text" name="Nom" id="Nom" size="30" 
         maxlength="25" placeholder="Ex:Dupont" autofocus required><br>
-        <label for="email">Adresse Mail:*</label><input type="email" name="mail" id="email" 
+        <label for="email">Adresse Mail:*</label>
+        <input type="email" name="mail" id="email" 
         size="50" maxlenght="50" placeholder="Ex: qqqqq@qqq.com" required><br>
         <p>
             Choississez votre type de demande: <br>
@@ -49,6 +51,12 @@
     </fieldset>
     </form>
 </main>
+<div>
+    <form action="submit_contact.php" method="POST" enctype="multipart/form-data">
+        <label for="photo_ascension">La photo de votre ascension</label>
+        <input type="file" id="photo_ascension" name="photo_ascension"/>
+    </form>
+</div>
    <footer>
     <h2 id="Contact us"></h3>
         <ul>

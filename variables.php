@@ -1,25 +1,26 @@
-<?php
 
-$users = [
-    [
-        'full_name' => 'Mickaël Andrieu',
-        'mail' => 'user@exemple.com',
-        'age' => 34,
-        'password' => 'devine',
-    ],
-    [
-        'full_name' => 'Mathieu Nebra',
-        'mail' => 'mathieu.nebra@exemple.com',
-        'age' => 34,
-        'password' => 'MiamMiam',
-    ],
-    [
-        'full_name' => 'Laurène Castor',
-        'mail' => 'laurene.castor@exemple.com',
-        'age' => 28,
-        'password' => 'laCasto28',
-    ],
-];
+<?php 
+ try 
+ {
+    $db = new PDO('mysql:host=localhost;dbname=relief_du_monde;charset=UTF8','root','tripleAAA9');
+ }
+catch (Exception $e)
+{
+    die('Erreur : '. $e->getMessage());
+}
+?>
+<?php
+$usersquery = 'SELECT * FROM users';
+$usersstatement = $db->prepare($usersquery);
+$usersstatement->execute();
+$users = $usersstatement->fetchAll();
+foreach($users as $user) {
+?>
+<p><?php echo $user['mail']; ?></p>    
+<?php
+}
+?>
+<?php
 $montagnes= [
     ['Nom' =>'everest',
     'altitude'=>8880,

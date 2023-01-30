@@ -1,5 +1,5 @@
 
-<?php 
+<?php  //email valid ? champ nom et requete non vide
 if ((!isset($_GET['email']) || !filter_var($_GET['email'], FILTER_VALIDATE_EMAIL))
 || (!isset($_GET['Nom']) || empty($_GET['Nom']))
 || (!isset($_GET['requetes']) || empty($_GET['requetes']))
@@ -9,7 +9,7 @@ if ((!isset($_GET['email']) || !filter_var($_GET['email'], FILTER_VALIDATE_EMAIL
     return;
 }
 //test si fichier est bien envoyé et pas d'erreur
-if (isset($FILES['photo_ascension']) && $_FILES['photo_ascension']['error'] ==0)
+if (!isset($FILES['photo_ascension']) && $_FILES['photo_ascension']['error'] ==0)
 {//verif taille fichier
     if($_FILES['photo_ascension']['size'] <=10000000)
     {// recupere extension fichier

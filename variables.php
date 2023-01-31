@@ -2,7 +2,7 @@
 <?php 
  try 
  {
-    $db = new PDO('mysql:host=localhost;dbname=relief_du_monde;charset=UTF8','root','tripleAAA9');
+    $db1 = new PDO('mysql:host=127.0.0.1;dbname=test;charset=UTF8','root','');
  }
 catch (Exception $e)
 {
@@ -10,31 +10,32 @@ catch (Exception $e)
 }
 ?>
 <?php
-$usersquery = 'SELECT * FROM users';
-$usersstatement = $db->prepare($usersquery);
-$usersstatement->execute();
-$users = $usersstatement->fetchAll();
-foreach($users as $user) {
+$sqlquery = 'SELECT * FROM mount ORDER BY altitude';
+$mountstatement = $db->prepare($sqlquery);
+$mountstatement->execute();
+$mounts = $mountstatement->fetchAll();
+foreach($mounts as $mount) {
 ?>
-<p><?php echo $user['mail']; ?></p>    
+<p><?php echo $mount['Nom']; ?></p>    
 <?php
 }
 ?>
+<!-- ajout unitaire de donnée dans la db -->
+<?php /* passage en commentaire
+//ajout d'une montagne dans la bd
+$sqlquery2 = 'INSERT INTO mount(Nom, altitude,massif, is_enabled, premiere_ascension)
+                VALUES (:Nom, :altitude, :massif, :is_enabled, :premiere_ascension)';
+         $insertmount = $db-> prepare($sqlquery2) ;      
+                $insertmount->execute([
+                    'Nom' => 'Cervin',
+                    'altitude' => 4478,
+                    'massif'=>'Alpes',
+                    'is_enabled' => 1,
+                    'premiere_ascension'=>'1865-07-14',//AAAA-MM-JJ
+                ]); */
+?>
+
 <?php
-$montagnes= [
-    ['Nom' =>'everest',
-    'altitude'=>8880,
-    'Massif'=>'Himalaya',
-'is_enabled'=>true],
-['Nom'=>'Ararat',
-'altitude'=>5137,
-'Massif'=>'Anatolie',
-'is_enabled'=>true],
-['Nom'=>'Aconcagua',
-'altitude'=>6700,
-'Massif'=>'Cordilleres des Andes',
-'is_enabled'=>true],
-];
 // variable pour limiter résultat affiché
 if(isset($_GET['limit']) && is_numeric($_GET['limit'])) {
     $limit = (int) $_GET['limit'];

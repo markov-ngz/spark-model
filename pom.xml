@@ -36,23 +36,23 @@
         <maven.compiler.source>${source.java.version}</maven.compiler.source>
         <maven.compiler.target>${target.java.version}</maven.compiler.target>
 
-        <checkstyle.version>9.3</checkstyle.version>
+        <checkstyle.version>14.1.0</checkstyle.version>
 
-        <slf4j.version>1.7.36</slf4j.version>
-        <log4j.version>2.24.3</log4j.version>
+        <slf4j.version>2.0.18</slf4j.version>
+        <log4j.version>2.26.1</log4j.version>
 
         <spotless.skip>false</spotless.skip>
-        <spotless.version>3.9.0</spotless.version>
+        <spotless.version>3.10.1</spotless.version>
         <spotless.delimiter>package</spotless.delimiter>
         <test.skip.coverage>true</test.skip.coverage>
         <test.unit.pattern>**/*Test.*</test.unit.pattern>
 
-        <junit5.version>5.9.1</junit5.version>
-        <mockito.version>3.4.6</mockito.version>
+        <junit5.version>6.1.3</junit5.version>
+        <mockito.version>5.23.0</mockito.version>
         <assertj.version>3.27.7</assertj.version>
 
         <hadoop.version>3.5.0</hadoop.version>
-        <spark.version>4.1.3</spark.version>
+        <spark.version>4.2.0</spark.version>
         <lombok.version>1.18.46</lombok.version>
 
         <argLine/>
@@ -118,19 +118,19 @@
         <dependency>
             <groupId>tools.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
-            <version>3.2.1</version>
+            <version>3.2.2</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>tools.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>3.2.1</version>
+            <version>3.2.2</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>tools.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-yaml</artifactId>
-            <version>3.2.1</version>
+            <version>3.2.2</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -276,7 +276,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.9.0</version>
+                    <version>3.16.0</version>
                     <configuration>
                         <source>${source.java.version}</source>
                         <target>${target.java.version}</target>
@@ -292,12 +292,12 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-enforcer-plugin</artifactId>
-                    <version>3.1.0</version>
+                    <version>3.6.3</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-shade-plugin</artifactId>
-                    <version>3.6.1</version>
+                    <version>3.6.2</version>
                     <executions>
                         <!-- Run shade goal on package phase -->
                         <execution>

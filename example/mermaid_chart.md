@@ -1,0 +1,12 @@
+flowchart LR;
+classDef bronzeClass fill:#CD7F32,stroke:#8B4513,stroke-width:2px,rx:10,ry:10,color:#000000;
+classDef silverClass fill:#C0C0C0,stroke:#707070,stroke-width:2px,rx:10,ry:10,color:#000000;
+classDef goldClass fill:#FFD700,stroke:#B8860B,stroke-width:2px,rx:10,ry:10,color:#000000;
+classDef sourceClass fill:#87CEEB,stroke:#4682B4,stroke-width:2px,rx:10,ry:10,color:#000000;
+classDef seedClass fill:#D8E9E6,stroke:#4682B4,stroke-width:2px,rx:10,ry:10,color:#000000;
+classDef edgeClass stroke:#333,stroke-width:2px;
+SourceCotationProteoOleagineux["SourceCotationProteoOleagineux"]:::sourceClass;
+click SourceCotationProteoOleagineux "#" "location: 'input/histo_cotation_proteo-oleagineux.csv'<br> materialized: 'file'";
+StgCotationProteoOleagineuxModel["StgCotationProteoOleagineuxModel"]:::bronzeClass;
+click StgCotationProteoOleagineuxModel "#" "location: 'null'<br> materialized: 'ephemeral'";
+SourceCotationProteoOleagineux --> StgCotationProteoOleagineuxModel;

@@ -1,0 +1,11 @@
+models:
+  - name: SourceCotationProteoOleagineux
+    materialized: file
+    location: "input/histo_cotation_proteo-oleagineux.csv"
+    file_format: csv
+    read_options:
+      header: true
+      delimiter: ";"
+
+  - name: StgCotationProteoOleagineuxModel
+    materialized: ephemeral

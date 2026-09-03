@@ -1,0 +1,239 @@
+ANNEE;CAMPAGNE;MOIS;SEMAINE;ESPECES;DETAIL;COTATION (€/t)
+2021;2020/21;Janvier;4;Colza;Ville A;438
+2021;2020/21;Janvier;4;Colza;Ville B;437
+2021;2020/21;Janvier;4;Colza;Ville C;443
+2021;2020/21;Janvier;4;Colza;Ville D;438
+2021;2020/21;Janvier;4;Colza;Ville E;440
+2021;2020/21;Janvier;4;Soja;Ville F;482
+2021;2020/21;Janvier;4;Tournesol;Ville F;515
+2021;2020/21;Janvier;4;Tournesol;Ville A;511
+2021;2020/21;Janvier;4;Tournesol;Ville B;530
+2021;2020/21;Janvier;4;Tournesol;Ville G;517
+2021;2020/21;Janvier;4;Tournesol;Ville H;528
+2021;2020/21;Janvier;4;Tourteaux de soja;Ville I;
+2021;2020/21;Janvier;4;Tourteaux de soja;Ville J;
+2021;2020/21;Janvier;4;Tourteaux de soja;Ville D;
+2021;2020/21;Janvier;4;Tourteaux de soja;Ville K;
+2021;2020/21;Janvier;4;Tourteaux de tournesol;Ville J;336
+2021;2020/21;Janvier;4;Tourteaux de tournesol;Ville D;336
+2021;2020/21;Février;5;Colza;Ville A;
+2021;2020/21;Février;5;Colza;Ville B;445
+2021;2020/21;Février;5;Colza;Ville C;
+2021;2020/21;Février;5;Colza;Ville D;
+2021;2020/21;Février;5;Colza;Ville E;
+2021;2020/21;Février;5;Soja;Ville F;495
+2021;2020/21;Février;5;Tournesol;Ville F;437
+2021;2020/21;Février;5;Tournesol;Ville A;
+2021;2020/21;Février;5;Tournesol;Ville B;544
+2021;2020/21;Février;5;Tournesol;Ville G;
+2021;2020/21;Février;5;Tournesol;Ville H;542
+2021;2020/21;Février;5;Tourteaux de soja;Ville I;
+2021;2020/21;Février;5;Tourteaux de soja;Ville J;
+2021;2020/21;Février;5;Tourteaux de soja;Ville D;
+2021;2020/21;Février;5;Tourteaux de soja;Ville K;
+2021;2020/21;Février;5;Tourteaux de tournesol;Ville J;334
+2021;2020/21;Février;5;Tourteaux de tournesol;Ville D;334
+2021;2020/21;Février;6;Colza;Ville A;450
+2021;2020/21;Février;6;Colza;Ville B;451
+2021;2020/21;Février;6;Colza;Ville C;455
+2021;2020/21;Février;6;Colza;Ville D;452
+2021;2020/21;Février;6;Colza;Ville E;
+2021;2020/21;Février;6;Soja;Ville F;505
+2021;2020/21;Février;6;Tournesol;Ville F;525
+2021;2020/21;Février;6;Tournesol;Ville A;
+2021;2020/21;Février;6;Tournesol;Ville B;540
+2021;2020/21;Février;6;Tournesol;Ville G;527
+2021;2020/21;Février;6;Tournesol;Ville H;540
+2021;2020/21;Février;6;Tourteaux de soja;Ville I;
+2021;2020/21;Février;6;Tourteaux de soja;Ville J;
+2021;2020/21;Février;6;Tourteaux de soja;Ville D;
+2021;2020/21;Février;6;Tourteaux de soja;Ville K;
+2021;2020/21;Février;6;Tourteaux de tournesol;Ville J;338
+2021;2020/21;Février;6;Tourteaux de tournesol;Ville D;338
+2021;2020/21;Février;7;Colza;Ville A;
+2021;2020/21;Février;7;Colza;Ville B;463
+2021;2020/21;Février;7;Colza;Ville C;470
+2021;2020/21;Février;7;Colza;Ville D;
+2021;2020/21;Février;7;Colza;Ville E;
+2021;2020/21;Février;7;Soja;Ville F;505
+2021;2020/21;Février;7;Tournesol;Ville F;
+2021;2020/21;Février;7;Tournesol;Ville A;
+2021;2020/21;Février;7;Tournesol;Ville B;550
+2021;2020/21;Février;7;Tournesol;Ville G;555
+2021;2020/21;Février;7;Tournesol;Ville H;553
+2021;2020/21;Février;7;Tourteaux de soja;Ville I;
+2021;2020/21;Février;7;Tourteaux de soja;Ville J;
+2021;2020/21;Février;7;Tourteaux de soja;Ville D;
+2021;2020/21;Février;7;Tourteaux de soja;Ville K;
+2021;2020/21;Février;7;Tourteaux de tournesol;Ville J;
+2021;2020/21;Février;7;Tourteaux de tournesol;Ville D;
+2021;2020/21;Février;8;Colza;Ville A;
+2021;2020/21;Février;8;Colza;Ville B;
+2021;2020/21;Février;8;Colza;Ville C;
+2021;2020/21;Février;8;Colza;Ville D;
+2021;2020/21;Février;8;Colza;Ville E;
+2021;2020/21;Février;8;Soja;Ville F;
+2021;2020/21;Février;8;Tournesol;Ville F;
+2021;2020/21;Février;8;Tournesol;Ville A;
+2021;2020/21;Février;8;Tournesol;Ville B;
+2021;2020/21;Février;8;Tournesol;Ville G;
+2021;2020/21;Février;8;Tournesol;Ville H;
+2021;2020/21;Février;8;Tourteaux de soja;Ville I;
+2021;2020/21;Février;8;Tourteaux de soja;Ville J;
+2021;2020/21;Février;8;Tourteaux de soja;Ville D;
+2021;2020/21;Février;8;Tourteaux de soja;Ville K;
+2021;2020/21;Février;8;Tourteaux de tournesol;Ville J;
+2021;2020/21;Février;8;Tourteaux de tournesol;Ville D;
+2021;2020/21;Février;9;Colza;Ville A;
+2021;2020/21;Février;9;Colza;Ville B;
+2021;2020/21;Février;9;Colza;Ville C;
+2021;2020/21;Février;9;Colza;Ville D;
+2021;2020/21;Février;9;Colza;Ville E;
+2021;2020/21;Février;9;Soja;Ville F;525
+2021;2020/21;Février;9;Tournesol;Ville F;
+2021;2020/21;Février;9;Tournesol;Ville A;
+2021;2020/21;Février;9;Tournesol;Ville B;555
+2021;2020/21;Février;9;Tournesol;Ville G;
+2021;2020/21;Février;9;Tournesol;Ville H;
+2021;2020/21;Février;9;Tourteaux de soja;Ville I;
+2021;2020/21;Février;9;Tourteaux de soja;Ville J;434
+2021;2020/21;Février;9;Tourteaux de soja;Ville D;434
+2021;2020/21;Février;9;Tourteaux de soja;Ville K;442
+2021;2020/21;Février;9;Tourteaux de tournesol;Ville J;
+2021;2020/21;Février;9;Tourteaux de tournesol;Ville D;
+2021;2020/21;Mars;10;Colza;Ville A;
+2021;2020/21;Mars;10;Colza;Ville B;
+2021;2020/21;Mars;10;Colza;Ville C;
+2021;2020/21;Mars;10;Colza;Ville D;528
+2021;2020/21;Mars;10;Colza;Ville E;
+2021;2020/21;Mars;10;Soja;Ville F;570
+2021;2020/21;Mars;10;Tournesol;Ville F;
+2021;2020/21;Mars;10;Tournesol;Ville A;
+2021;2020/21;Mars;10;Tournesol;Ville B;565
+2021;2020/21;Mars;10;Tournesol;Ville G;
+2021;2020/21;Mars;10;Tournesol;Ville H;565
+2021;2020/21;Mars;10;Tourteaux de soja;Ville I;
+2021;2020/21;Mars;10;Tourteaux de soja;Ville J;
+2021;2020/21;Mars;10;Tourteaux de soja;Ville D;
+2021;2020/21;Mars;10;Tourteaux de soja;Ville K;
+2021;2020/21;Mars;10;Tourteaux de tournesol;Ville J;
+2021;2020/21;Mars;10;Tourteaux de tournesol;Ville D;
+2021;2020/21;Mars;11;Colza;Ville A;
+2021;2020/21;Mars;11;Colza;Ville B;
+2021;2020/21;Mars;11;Colza;Ville C;
+2021;2020/21;Mars;11;Colza;Ville D;
+2021;2020/21;Mars;11;Colza;Ville E;
+2021;2020/21;Mars;11;Soja;Ville F;
+2021;2020/21;Mars;11;Tournesol;Ville F;
+2021;2020/21;Mars;11;Tournesol;Ville A;
+2021;2020/21;Mars;11;Tournesol;Ville B;
+2021;2020/21;Mars;11;Tournesol;Ville G;
+2021;2020/21;Mars;11;Tournesol;Ville H;
+2021;2020/21;Mars;11;Tourteaux de soja;Ville I;
+2021;2020/21;Mars;11;Tourteaux de soja;Ville J;
+2021;2020/21;Mars;11;Tourteaux de soja;Ville D;
+2021;2020/21;Mars;11;Tourteaux de soja;Ville K;
+2021;2020/21;Mars;11;Tourteaux de tournesol;Ville J;
+2021;2020/21;Mars;11;Tourteaux de tournesol;Ville D;
+2021;2020/21;Mars;12;Colza;Ville A;
+2021;2020/21;Mars;12;Colza;Ville B;
+2021;2020/21;Mars;12;Colza;Ville C;
+2021;2020/21;Mars;12;Colza;Ville D;
+2021;2020/21;Mars;12;Colza;Ville E;
+2021;2020/21;Mars;12;Soja;Ville F;
+2021;2020/21;Mars;12;Tournesol;Ville F;
+2021;2020/21;Mars;12;Tournesol;Ville A;
+2021;2020/21;Mars;12;Tournesol;Ville B;
+2021;2020/21;Mars;12;Tournesol;Ville G;
+2021;2020/21;Mars;12;Tournesol;Ville H;
+2021;2020/21;Mars;12;Tourteaux de soja;Ville I;
+2021;2020/21;Mars;12;Tourteaux de soja;Ville J;
+2021;2020/21;Mars;12;Tourteaux de soja;Ville D;
+2021;2020/21;Mars;12;Tourteaux de soja;Ville K;
+2021;2020/21;Mars;12;Tourteaux de tournesol;Ville J;
+2021;2020/21;Mars;12;Tourteaux de tournesol;Ville D;
+2021;2020/21;Mars;13;Colza;Ville A;
+2021;2020/21;Mars;13;Colza;Ville B;506
+2021;2020/21;Mars;13;Colza;Ville C;508
+2021;2020/21;Mars;13;Colza;Ville D;510
+2021;2020/21;Mars;13;Colza;Ville E;507
+2021;2020/21;Mars;13;Soja;Ville F;570
+2021;2020/21;Mars;13;Tournesol;Ville F;545
+2021;2020/21;Mars;13;Tournesol;Ville A;
+2021;2020/21;Mars;13;Tournesol;Ville B;560
+2021;2020/21;Mars;13;Tournesol;Ville G;555
+2021;2020/21;Mars;13;Tournesol;Ville H;560
+2021;2020/21;Mars;13;Tourteaux de soja;Ville I;420
+2021;2020/21;Mars;13;Tourteaux de soja;Ville J;419
+2021;2020/21;Mars;13;Tourteaux de soja;Ville D;419
+2021;2020/21;Mars;13;Tourteaux de soja;Ville K;425
+2021;2020/21;Mars;13;Tourteaux de tournesol;Ville J;
+2021;2020/21;Mars;13;Tourteaux de tournesol;Ville D;
+2021;2020/21;Avril;14;Colza;Ville A;506
+2021;2020/21;Avril;14;Colza;Ville B;500
+2021;2020/21;Avril;14;Colza;Ville C;500
+2021;2020/21;Avril;14;Colza;Ville D;499
+2021;2020/21;Avril;14;Colza;Ville E;498
+2021;2020/21;Avril;14;Soja;Ville F;570
+2021;2020/21;Avril;14;Tournesol;Ville F;520
+2021;2020/21;Avril;14;Tournesol;Ville A;
+2021;2020/21;Avril;14;Tournesol;Ville B;542
+2021;2020/21;Avril;14;Tournesol;Ville G;500
+2021;2020/21;Avril;14;Tournesol;Ville H;
+2021;2020/21;Avril;14;Tourteaux de soja;Ville I;
+2021;2020/21;Avril;14;Tourteaux de soja;Ville J;
+2021;2020/21;Avril;14;Tourteaux de soja;Ville D;417
+2021;2020/21;Avril;14;Tourteaux de soja;Ville K;
+2021;2020/21;Avril;14;Tourteaux de tournesol;Ville J;315
+2021;2020/21;Avril;14;Tourteaux de tournesol;Ville D;315
+2021;2020/21;Avril;15;Colza;Ville A;510
+2021;2020/21;Avril;15;Colza;Ville B;502
+2021;2020/21;Avril;15;Colza;Ville C;505
+2021;2020/21;Avril;15;Colza;Ville D;499
+2021;2020/21;Avril;15;Colza;Ville E;502
+2021;2020/21;Avril;15;Soja;Ville F;
+2021;2020/21;Avril;15;Tournesol;Ville F;520
+2021;2020/21;Avril;15;Tournesol;Ville A;
+2021;2020/21;Avril;15;Tournesol;Ville B;527
+2021;2020/21;Avril;15;Tournesol;Ville G;515
+2021;2020/21;Avril;15;Tournesol;Ville H;515
+2021;2020/21;Avril;15;Tourteaux de soja;Ville I;411
+2021;2020/21;Avril;15;Tourteaux de soja;Ville J;408
+2021;2020/21;Avril;15;Tourteaux de soja;Ville D;408
+2021;2020/21;Avril;15;Tourteaux de soja;Ville K;416
+2021;2020/21;Avril;15;Tourteaux de tournesol;Ville J;310
+2021;2020/21;Avril;15;Tourteaux de tournesol;Ville D;310
+2021;2020/21;Avril;16;Colza;Ville A;
+2021;2020/21;Avril;16;Colza;Ville B;555
+2021;2020/21;Avril;16;Colza;Ville C;506
+2021;2020/21;Avril;16;Colza;Ville D;
+2021;2020/21;Avril;16;Colza;Ville E;
+2021;2020/21;Avril;16;Soja;Ville F;577
+2021;2020/21;Avril;16;Tournesol;Ville F;
+2021;2020/21;Avril;16;Tournesol;Ville A;
+2021;2020/21;Avril;16;Tournesol;Ville B;
+2021;2020/21;Avril;16;Tournesol;Ville G;
+2021;2020/21;Avril;16;Tournesol;Ville H;
+2021;2020/21;Avril;16;Tourteaux de soja;Ville I;417
+2021;2020/21;Avril;16;Tourteaux de soja;Ville J;417
+2021;2020/21;Avril;16;Tourteaux de soja;Ville D;417
+2021;2020/21;Avril;16;Tourteaux de soja;Ville K;425
+2021;2020/21;Avril;16;Tourteaux de tournesol;Ville J;324
+2021;2020/21;Avril;16;Tourteaux de tournesol;Ville D;324
+2021;2020/21;Avril;17;Colza;Ville A;585
+2021;2020/21;Avril;17;Colza;Ville B;565
+2021;2020/21;Avril;17;Colza;Ville C;570
+2021;2020/21;Avril;17;Colza;Ville D;580
+2021;2020/21;Avril;17;Colza;Ville E;580
+2021;2020/21;Avril;17;Soja;Ville F;
+2021;2020/21;Avril;17;Tournesol;Ville F;
+2021;2020/21;Avril;17;Tournesol;Ville A;
+2021;2020/21;Avril;17;Tournesol;Ville B;550
+2021;2020/21;Avril;17;Tournesol;Ville G;
+2021;2020/21;Avril;17;Tournesol;Ville H;
+2021;2020/21;Avril;17;Tourteaux de soja;Ville I;430
+2021;2020/21;Avril;17;Tourteaux de soja;Ville J;430
+2021;2020/21;Avril;17;Tourteaux de soja;Ville D;430
+2021;2020/21;Avril;17;Tourteaux de soja;Ville K;437
+2021;2020/21;Avril;17;Tourteaux de tournesol;Ville J;332
+2021;2020/21;Avril;17;Tourteaux de tournesol;Ville D;332

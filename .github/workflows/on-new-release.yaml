@@ -9,13 +9,13 @@ permissions:
 on:
   release:
     types:
-      - created
+      - published
 jobs:
 
-  publish-library:
+  call-publish-library:
     uses: ./.github/workflows/_publish-library.yaml
     with:
       working-directory: "."
 
-  javadoc:
-    uses: ./.github/workflows/_javadoc-pages.yaml
+#  javadoc:
+#    uses: ./.github/workflows/_javadoc-pages.yaml

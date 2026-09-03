@@ -15,7 +15,9 @@ jobs:
   call-publish-library:
     uses: ./.github/workflows/_publish-library.yaml
     with:
-      working-directory: "."
+      working-directory: "./spark-model"
 
-#  javadoc:
-#    uses: ./.github/workflows/_javadoc-pages.yaml
+  javadoc:
+    uses: ./.github/workflows/_javadoc-pages.yaml
+    with:
+      working-directory: "./spark-model"

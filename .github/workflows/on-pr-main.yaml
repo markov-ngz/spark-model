@@ -23,12 +23,12 @@ jobs:
   software-composition-analysis:
     uses: ./.github/workflows/_sca.yaml
     with:
-      working-directory: "."
+      working-directory: "./spark-model"
 
   maven-build-test:
     needs:
       - software-composition-analysis
     uses: ./.github/workflows/_maven-build-test.yaml
     with:
-      working-directory:  "."
+      working-directory: "./spark-model"
       java-version: '21'

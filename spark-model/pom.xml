@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ngz.markov</groupId>
-    <artifactId>spark-model</artifactId>
+    <artifactId>sparkmodel</artifactId>
     <version>0.1.0</version>
     <name>spark-model</name>
 
@@ -352,9 +352,9 @@
                         </execution>
                     </executions>
                     <configuration>
-                        <suppressionsLocation>tools/maven/suppressions.xml</suppressionsLocation>
+                        <suppressionsLocation>../tools/maven/suppressions.xml</suppressionsLocation>
                         <includeTestSourceDirectory>true</includeTestSourceDirectory>
-                        <configLocation>tools/maven/checkstyle.xml</configLocation>
+                        <configLocation>../tools/maven/checkstyle.xml</configLocation>
                         <logViolationsToConsole>true</logViolationsToConsole>
                         <failOnViolation>true</failOnViolation>
                         <excludes>module-info.java</excludes>

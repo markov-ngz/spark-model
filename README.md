@@ -1,4 +1,4 @@
-# 🗲 Spark Model
+# 💫 Spark Model
 
 **Spark Model** is a lightweight framework designed to develop data transformations as reusable "models," inspired by tools like **dbt** but tailored for **Apache Spark**. It introduces a structured approach to data transformation, aligning with the principles of a **data mesh** to enhance semantic clarity, quality, and traceability.
 
@@ -43,7 +43,7 @@ Configures the execution environment, such as:
 
 ---
 
-## **Getting Started**
+## **🌿 Getting Started**
 
 ### **1. Define a Source**
 Sources represent raw data inputs. Configure them in the registry using YAML:
